@@ -5,6 +5,7 @@ exports.getTest = (req, res, next) => {
 
 exports.
     getTestList = (req, res, next) => {
+        console.log('Ram');
         res.status(200).json(
             [
                 { id: 1, name: 'Ram', age: 33 },
